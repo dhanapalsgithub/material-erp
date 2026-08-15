@@ -65,7 +65,11 @@ export async function POST(req: Request) {
           freight: input.freight,
           vehicleNo: input.vehicleNo,
           transporterId: input.transporterId,
-          ...totals,
+          subtotal: totals.subtotal,
+          cgst: totals.cgst,
+          sgst: totals.sgst,
+          igst: totals.igst,
+          total: totals.total,
           notes: input.notes,
           createdById: session.id,
           lines: {
@@ -108,7 +112,6 @@ export async function POST(req: Request) {
       return created;
     });
 
-    // Client component E-Way Bill பட்டனுக்கு தேவைப்படும் முழு invoice விவரங்களையும் திருப்புகிறது
     return NextResponse.json({
       invoiceId: invoice.id,
       number: invoice.number,
