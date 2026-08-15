@@ -1,0 +1,63 @@
+{
+  "node": {
+    "406880c138e920794a2a9b9847d8100dbc0a993680": {
+      "workers": {
+        "app/(erp)/inventory/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%22406880c138e920794a2a9b9847d8100dbc0a993680%22%2C%22exportedName%22%3A%22adjustStock%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2240af4fc113e49bae56e6e52748bd87cd36e802a926%22%2C%22exportedName%22%3A%22saveItem%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(erp)/inventory/page": "rsc"
+      },
+      "filename": "../D:\\construction-pos\\app\\(erp)\\inventory\\actions.ts",
+      "exportedName": "adjustStock"
+    },
+    "40af4fc113e49bae56e6e52748bd87cd36e802a926": {
+      "workers": {
+        "app/(erp)/inventory/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%22406880c138e920794a2a9b9847d8100dbc0a993680%22%2C%22exportedName%22%3A%22adjustStock%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2240af4fc113e49bae56e6e52748bd87cd36e802a926%22%2C%22exportedName%22%3A%22saveItem%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cinventory%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(erp)/inventory/page": "rsc"
+      },
+      "filename": "../D:\\construction-pos\\app\\(erp)\\inventory\\actions.ts",
+      "exportedName": "saveItem"
+    },
+    "60340c4991a14d25750b9fc94461e730df32c32ef7": {
+      "workers": {
+        "app/(erp)/masters/customers/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cmasters%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260340c4991a14d25750b9fc94461e730df32c32ef7%22%2C%22exportedName%22%3A%22saveParty%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cmasters%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/(erp)/masters/suppliers/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cmasters%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260340c4991a14d25750b9fc94461e730df32c32ef7%22%2C%22exportedName%22%3A%22saveParty%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Cmasters%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(erp)/masters/customers/page": "rsc",
+        "app/(erp)/masters/suppliers/page": "rsc"
+      },
+      "filename": "../D:\\construction-pos\\app\\(erp)\\masters\\actions.ts",
+      "exportedName": "saveParty"
+    },
+    "40ab198668cbc98670be1ca5b58f394c0a1de70345": {
+      "workers": {
+        "app/(erp)/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240ab198668cbc98670be1ca5b58f394c0a1de70345%22%2C%22exportedName%22%3A%22saveCompany%22%2C%22filename%22%3A%22..%2FD%3A%5C%5Cconstruction-pos%5C%5Capp%5C%5C(erp)%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(erp)/settings/page": "rsc"
+      },
+      "filename": "../D:\\construction-pos\\app\\(erp)\\settings\\actions.ts",
+      "exportedName": "saveCompany"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "gMnvs3tVdgj7bhZ0J7UgCmGdKkL9S8foIuD3VheMbGw="
+}

@@ -1,0 +1,8 @@
+{
+  "/(erp)/purchases/page": "app/(erp)/purchases/page.js",
+  "/(erp)/inventory/page": "app/(erp)/inventory/page.js",
+  "/(erp)/masters/customers/page": "app/(erp)/masters/customers/page.js",
+  "/(erp)/masters/suppliers/page": "app/(erp)/masters/suppliers/page.js",
+  "/(erp)/reports/page": "app/(erp)/reports/page.js",
+  "/(erp)/settings/page": "app/(erp)/settings/page.js"
+}
