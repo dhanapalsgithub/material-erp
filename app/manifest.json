@@ -1,0 +1,17 @@
+{
+  "name": "BuildMart ERP",
+  "short_name": "BuildMart",
+  "description": "Point of Sale system for construction business",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
