@@ -30,7 +30,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   line(`GSTIN: ${(invoice.customer || invoice.supplier)?.gstin || 'Unregistered'}`);
   y -= 12;
   
-  line('Item                                               Qty         Rate         GST       Amount', true);
+  line('Item                                            Qty         Rate        GST      Amount', true);
   page.drawLine({ start: { x: 42, y: y + 4 }, end: { x: 553, y: y + 4 }, thickness: 1 });
   
   for (const x of invoice.lines) {
@@ -45,13 +45,11 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
 
   const bytes = await pdf.save();
   
-  // TypeScript பிழையைத் தவிர்க்க Blob-ஆக மாற்றி அனுப்பப்படுகிறது
-  const blob = new Blob([bytes], { type: 'application/pdf' });
-
-  return new Response(blob, {
+  // TypeScript மற்றும் Vercel Build பிழையைத் தவிர்க்க Buffer-ஆக மாற்றி அனுப்பப்படுகிறது
+  return new Response(Buffer.from(bytes), {
     headers: {
       'Content-Type': 'application/pdf',
-      'Content-Disposition': `attachment; filename="${invoice.number}.pdf"`,
+      'Content-Disposition': 'inline; filename="invoice.pdf"',
     },
   });
 }
